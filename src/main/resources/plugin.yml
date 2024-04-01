@@ -1,0 +1,13 @@
+name: LamaRandom
+version: '${project.version}'
+main: cloud.lamarandom.LamaRandom
+api-version: '1.16'
+commands:
+  randomdonator:
+    description: Выбрать случайного игрока для получения донат-кейса
+    usage: /<command>
+    permission: lamarandom.use
+permissions:
+  lamarandom.use:
+    description: Разрешает использование команды /randomdonator
+    default: op
